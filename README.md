@@ -17,7 +17,7 @@ Good luck, have fun!
 Approach - Attached event listener to scroll that calculates scroll depth as percentage of total scrollable height, updating width of progress bar in real time. As mentioned in constraints, I separated the sessionStorage into its separate module. The exact Y coordinate is saved for the user. When user returns to the page, prompt appears asking the user to resume where he/she left off. On clicking confirm, window.scrollTo() function helps to return to the last location.
 
 Group B:B2
-Approach - Attached a single one click listener to the <ul> container. When clicked, the aria-expanded of the .tl_button is toggled. To achieve good expansion animation, I used max-height feature in CSS. Using Java Script, I read the scroll height and set it as new max-height value to expand it, or if closing, change it to 0px to collapse.
+Approach - Attached a single one click listener to the ul container. When clicked, the aria-expanded of the .tl_button is toggled. To achieve good expansion animation, I used max-height feature in CSS. Using Java Script, I read the scroll height and set it as new max-height value to expand it, or if closing, change it to 0px to collapse.
 
 
 3. I used 'Montserrat' for headings and 'Open Sans' for body. I tried many different textx, but this combo looked most visually appealing.
